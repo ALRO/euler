@@ -1,0 +1,22 @@
+{
+  "name": "euler",
+  "version": "0.0.0",
+  "description": "some code fun",
+  "main": "none",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ALRO/euler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ALRO/euler/issues"
+  },
+  "homepage": "https://github.com/ALRO/euler#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
+}
