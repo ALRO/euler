@@ -1,4 +1,5 @@
-todo:
-[] subtraction
-[] Negative numbers
-[] ....MORE 
+## todo:
+
+- [ ] subtraction
+- [ ] Negative numbers
+- [ ] ....MORE 
