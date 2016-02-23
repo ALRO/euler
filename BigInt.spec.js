@@ -27,5 +27,11 @@ describe("BigInt", function() {
       assert.equal(bigInt3.toString(), "1133");
     });
 
+    it("should be able to handle carries", function() {
+      const bigInt1 = new BigInt("9999");
+      const bigInt2 = bigInt1.add(bigInt1);
+
+      assert.equal(bigInt2.toString(), "19998");
+    });
   });
 });
