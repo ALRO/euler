@@ -1,5 +1,4 @@
 todo:
-
-[] Test simple subtraction more
+[] subtraction
 [] Negative numbers
 [] ....MORE 
