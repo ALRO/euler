@@ -19,5 +19,13 @@ describe("BigInt", function() {
       assert.equal(bigInt3.toString(), "33");
     });
 
+    it("should be able to add 2 small numbers of different length", function() {
+      const bigInt1 = new BigInt("1111");
+      const bigInt2 = new BigInt("22");
+      const bigInt3 = bigInt1.add(bigInt2);
+
+      assert.equal(bigInt3.toString(), "1133");
+    });
+
   });
 });

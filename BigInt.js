@@ -10,11 +10,10 @@ class BigInt {
   }
 
   add(that) {
-    const thisArray = this.toString().split("");
-    const thatArray = that.toString().split("");
+    const thisArray = this.toString().split("").reverse();
+    const thatArray = that.toString().split("").reverse();
 
     const sumArray = [thisArray, thatArray].reduce(function(previous, current){
-      console.log(previous, current);
       current.forEach(function(value, index) {
         if(typeof previous[index] === "undefined"){
           previous[index] = 0;
@@ -24,7 +23,7 @@ class BigInt {
       return previous;
     },[]);
 
-    return new BigInt(sumArray.join(""));
+    return new BigInt(sumArray.reverse().join(""));
   }
 }
 
